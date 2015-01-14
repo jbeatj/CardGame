@@ -1,3 +1,4 @@
+package tp1;
 
 
 import java.util.*;   // pour pouvoir utiliser Random

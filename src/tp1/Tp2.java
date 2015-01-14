@@ -1,3 +1,4 @@
+package tp1;
 /**
  * I N F 1 1 2 0
  *
@@ -53,8 +54,8 @@ public class Tp2 {
     } // afficherCarte
     
     /**
-     * Détermine si les deux cartes ont la même valeur (ex.: deux rois, deux 9)
-     * @param carte1 et carte2 doivent être entre 0 et 51 inclusivement
+     * Détermine si les deux cartes ont la m?me valeur (ex.: deux rois, deux 9)
+     * @param carte1 et carte2 doivent ?tre entre 0 et 51 inclusivement
      */
     public static boolean memeValeur (int carte1,int carte2) {
         // Déclaration des variables locales
@@ -72,10 +73,10 @@ public class Tp2 {
     } // memeValeur
     
     /**
-     * Détermine si les deux cartes ont la même couleur.
-     * Les 4 couleurs possibles sont : coeur, carreau, trèfle et pique.
-     * @param carte1 et carte2 doivent être entre 0 et 51 inclusivement
-     * @return true si les deux cartes ont la même couleur, false sinon
+     * Détermine si les deux cartes ont la m?me couleur.
+     * Les 4 couleurs possibles sont : coeur, carreau, tr?fle et pique.
+     * @param carte1 et carte2 doivent ?tre entre 0 et 51 inclusivement
+     * @return true si les deux cartes ont la m?me couleur, false sinon
      */
     public static boolean memeCouleur (int carte1,int carte2) {
         // Déclaration des variables locales
@@ -94,7 +95,7 @@ public class Tp2 {
     
     /**
      * Détermine si une carte est une figure : As, roi, dame, valet.
-     * @param carte doit être entre 0 et 51 inclusivement
+     * @param carte doit ?tre entre 0 et 51 inclusivement
      * @return true si la carte est une figure, false sinon
      */
     public static boolean estUneFigure (int carte) {
@@ -115,7 +116,7 @@ public class Tp2 {
     
      /**
      * Permet a l'utilisateur d'initialiser le jeu de carte.
-     * Un même entier germe générera les mêmes cartes.
+     * Un m?me entier germe générera les m?mes cartes.
      */
     public static void initialiserLeJeu () {
         int germe;
@@ -173,7 +174,7 @@ public class Tp2 {
      /**
      * Demande à l'utilisateur combien de cartes il désire piger.
      * Si il a moins de 6$, l'ordinateur pige 2 cartes pour lui.
-     * @param argent doit être un entier
+     * @param argent doit ?tre un entier
      * @return 2 ou 3 cartes
      */
     public static int nombreDeCartes (int argent) {
@@ -231,7 +232,7 @@ public class Tp2 {
      * l'utilisateur gagne son pari.
      * @param choixPari doit etre un numero entre 1 et 5
      * @param carte1 et carte2 doivent etre entre 0 et 51
-     * @param carte3 doit être entre égal à 51 ou moins
+     * @param carte3 doit ?tre entre égal à 51 ou moins
      * @return true si l'utilisateur gagne son pari, false sinon
      */
     public static boolean gagnePari (int choixPari, int carte1, int carte2, int carte3) {
@@ -340,8 +341,8 @@ public class Tp2 {
     
      /**
      * Donne le montant d'argent gagné par l'utilisateur selon son pari.
-     * @param nombreDeCartes doit être 2 ou 3
-     * @param numeroDePari doit être entre 1 et 5
+     * @param nombreDeCartes doit ?tre 2 ou 3
+     * @param numeroDePari doit ?tre entre 1 et 5
      * @return gain le montant gagné par l'utilisateur
      */
     public static int argentGagne (int nombreDeCartes, int numeroDePari) {
