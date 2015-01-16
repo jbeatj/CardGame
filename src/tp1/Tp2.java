@@ -1,6 +1,6 @@
 package tp1;
 /**
- * INF6150
+ * INF6150 
  *
  * Ce programme permet de miser sur des paris aux cartes.
  * 
